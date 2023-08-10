@@ -1,0 +1,288 @@
+/* .upper{
+    background-image: url(./);
+} */
+@import url("https://fonts.googleapis.com/css@?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.headercss{
+    position: relative;
+    top: 0;
+    left: 60px;
+    right: 60px;
+    text-align: center;
+}
+
+body{
+    /* background-color: rgb(54, 53, 53); */
+    background-color: #24282c;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: black;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2 linear;
+    box-shadow: 0,20px 35px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5 ease;
+    margin: 10px 0 0 10px;
+    pointer-events:none;
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a{
+    position: relative;
+    color: rgb(85, 83, 83);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+    color: #DB4437;
+}
+
+.fas1{
+    color: #4285F4;
+}
+
+.fas2{
+    color: #F4B400;
+}
+
+.fas3{
+    color: #0F9D58;
+}
+
+.nav-items{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    color: white;
+}
+
+a:hover{
+    background: #24282c;
+}
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+
+nav:hover::after{
+    background: #24282c;
+}
+
+.section1, .section2, .section3, .section4{
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center;  */
+    /* position: relative;  */
+    position: relative;
+    /* align-items: center; */
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 50;
+    color: #fff;
+    position: static;
+    top: 0;
+    left: 0;
+    right: 50;
+}
+
+.section2{
+    background-image: url("./images/wallpaperflare-cropped.jpg");
+    max-width: 100%;
+    max-height: 100%;
+    width: 1800px;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.section4{
+    background-color: white;
+}
+
+.imgdesign{
+    /* margin-left: 5%;
+    border-width: 100px;*/
+    width: 50%; 
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    /* margin-left: 800px; */
+}
+
+.pos_center{
+    position: relative;
+    width: 70%;
+    left: 30%;
+    top: 1%;
+}
+
+.imgdesign{
+    position: relative;
+    width: 50%;
+    left: 40%;
+    top: 1%;
+}
+
+.locate1{
+    color: white;
+    position: absolute;
+    top: 30%;
+    right: 43%;
+    font-size: 2.5em;
+}
+
+.locate2{
+    color: white;
+    position: absolute;
+    top: 38%;
+    right: 60.7%;
+    font-size: 2.5em;
+    font-weight: 50px;
+    margin-bottom: 50%;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    top: 53%;
+    left: -12%;
+    right: 60%;
+    font-size: 135%;
+    font-weight: 50px;
+    text-align: justify;
+    text-transform:initial;
+}
+
+.connect{
+    position: relative;
+    
+}
+
+.imageedit{
+    width: 400px;
+    height: 300px;
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+.imageedit1{
+    width: 400px;
+    height: 300px;
+    margin-left: 0%;
+    margin-top: 15%;
+}
+
+.imageedit2{
+    width: 390px;
+    height: 300px;
+    margin-right: 1000%;
+    margin-top: 26%;
+}
+
+
+.imageedit3{
+    width: 1090px;
+    height: 770px;
+    display: -webkit-box;
+    margin-left: 5%; 
+}
+
+.imageedit4{
+    position: absolute;
+    width: 700px;
+    height: 770px;
+    display: -webkit-box;
+    margin-left: 55%; 
+}
+
+
+
+.video{
+    width: 550px;
+    height: 500px;
+    display: -webkit-box;
+    margin-left: 300px;
+    margin-top: 12%;
+}
+
+.goals123{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+
+.setgoals{
+    margin: 0%;
+}
+
+/* .footer{
+    display: -webkit-box;
+    margin-top: 30%;
+    margin-left: 300px;
+    height: 30%;
+    width: 70%;
+} */
+
+.footer1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: 6.2%;
+}
+
+.final{
+    position: absolute; 
+    top: 50%;  
+    /* top: 58px;
+    right: 16px; */
+    color: black; 
+}
+
+
+
+
